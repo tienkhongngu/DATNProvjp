@@ -1,0 +1,123 @@
+
+
+.header-layout{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.header-layout .header-right {
+    float: right;
+    margin-right: 30px;
+}
+.header-layout  .header-li {
+    float: left;
+    padding: 12px;
+    font-size: 20px; 
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.header-layout  .header-li > .header-link {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+/* register */
+.register-form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.register-header{
+    text-align: center;
+}
+
+.register-header .h-form{
+    font-size: 35px;
+    font-weight: 400;
+}
+.input-form {
+    width: 100%;
+}
+.title-input{
+    padding: 8px 0;
+}
+
+.title-input > input{
+    width: 100%;
+    margin-bottom: 8px;
+    line-height: 1.6;
+    width: 96%;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* submit */
+
+.submit-btn {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.submit-btn:hover{
+    box-shadow: 0 8px 24px 12px rgba(0,0,0,.08), 
+    0 20px 24px -4px rgba(0,0,0,.08);
+}
+
+
+
+.submit-btn > button {
+    width: 100%;
+    padding: 13px 0;
+    background: #5fcf86;
+    color: #fff;
+    border: 1px solid #5fcf86;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #5fcf86;
+    font-weight: 550;
+    float: right;
+    padding: 5px 0;
+}
+
+.not-login {
+    text-align: center;
+    padding: 10px 0;
+}
+.not-login .text-link{
+    float: none;
+}
+
+/* social login */
+.social-lg {
+    display: flex;
+    grid-gap: 10px;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.social{
+    padding: 10px 80px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.fa-brands{
+    color:  #1813f2;
+    padding-right: 5px;
+}
+.social:hover{
+    box-shadow: 0 8px 24px 12px rgba(0,0,0,.08), 
+                0 20px 24px -4px rgba(0,0,0,.08);
+}
